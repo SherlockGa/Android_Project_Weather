@@ -15,7 +15,7 @@
         android:singleLine="true"
         android:text="北京"
         android:textColor="@android:color/white"
-        android:textSize="40sp"/>
+        android:textSize="50sp"/>
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
