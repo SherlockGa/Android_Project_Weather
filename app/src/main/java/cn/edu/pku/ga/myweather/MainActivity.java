@@ -257,7 +257,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //SharedPreference中取出存储的页面数据
             SharedPreferences sharedPreferences = getSharedPreferences("config",MODE_PRIVATE);
             //SharedPreference中读取城市id，如果没有定义则用缺省值
-            String cityCode = sharedPreferences.getString("main_city_code","101020100");
+            String cityCode = sharedPreferences.getString("main_city_code","101010100");
             Log.d("myWeather",cityCode);
 
             if (NetUtil.getNetworkState(this) != NetUtil.NETWORN_NONE){
