@@ -20,11 +20,11 @@
                 android:id="@+id/pm2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:singleLine="true"
                 android:text="PM2.5"
                 android:textColor="@android:color/white"
-                android:textSize="12sp"/>
+                android:textSize="14sp"/>
             <!--此处放PM2.5数值-->
             <TextView
                 android:id="@+id/pm_data"
@@ -50,11 +50,10 @@
         android:id="@+id/pm2_5_quality"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
         android:gravity="center"
         android:singleLine="true"
         android:text="重度污染"
         android:textColor="@android:color/white"
-        android:textSize="20sp"/>
+        android:textSize="25sp"/>
 
 </LinearLayout>

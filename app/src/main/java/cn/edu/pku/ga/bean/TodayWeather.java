@@ -60,11 +60,11 @@ public class TodayWeather {
     }
 
     public String getHigh() {
-        return high;
+        return high.substring(3);
     }
 
     public String getLow() {
-        return low;
+        return low.substring(3);
     }
 
     public String getType() {
