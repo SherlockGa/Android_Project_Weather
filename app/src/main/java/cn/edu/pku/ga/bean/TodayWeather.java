@@ -137,7 +137,7 @@ public class TodayWeather {
                 '}';
     }
 
-    //解析出各个信息
+    //解析出各个城市信息
     public static TodayWeather parseXML(String xmldata){
         TodayWeather todayWeather = null;
         int fengxiangCount = 0;
